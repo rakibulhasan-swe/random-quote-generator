@@ -1,6 +1,5 @@
 const generateBtn = document.getElementById('generate-btn');
-
-
+// function
 const generateQuotes = () => {
     let quotes = {
         "― Albert Einstein ": '“Our task must be to free ourselves... by widening our circle of compassion to embrace all living creatures and the whole of nature and its beauty.”',
@@ -19,4 +18,5 @@ const generateQuotes = () => {
     document.getElementById('quote').innerHTML = quote;
     document.getElementById('author').innerHTML = author;
 }
+// event listener
 generateBtn.addEventListener('click', generateQuotes);
